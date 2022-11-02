@@ -1,5 +1,5 @@
 {
-  "name": "airline-system",
+  "name": "manager",
   "version": "1.0.0",
   "description": "",
   "main": "manager.js",
@@ -7,19 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node manager.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/WllaTalafha/airline-system.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/WllaTalafha/airline-system/issues"
-  },
-  "homepage": "https://github.com/WllaTalafha/airline-system#readme",
   "dependencies": {
     "@faker-js/faker": "^7.6.0",
+    "dotenv": "^16.0.3",
+    "socket.io-client": "^4.5.3",
     "uuid": "^9.0.0"
   }
 }
